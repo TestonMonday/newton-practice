@@ -10,8 +10,7 @@ def second_derivative(f, x0, h=1e-5):
 
     return derivative(prime, x0, h)
 
-
-# optimize function using Newton's method
+#optimize function using Newton's method
 def optimize(f, x0, tol=1e-7, max_iter=100):
     """Optimize the function f using Newton's method starting from x0."""
     x = x0
